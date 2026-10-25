@@ -1,91 +1,34 @@
 # Quantitative Trading & Systematic Portfolio Research
 
-Research portfolio focused on systematic trading, quantitative strategy development, portfolio construction and risk management.
+Quantitative research focused on systematic trading, portfolio construction, and risk management, with the long-term objective of developing robust strategies for deployment on Darwinex Zero.
 
-The objective is to develop, test and critically evaluate systematic trading approaches in Python, with a focus on statistical robustness, realistic execution assumptions and reproducible research.
+## Research Focus
 
-Research Objectives
+- **Systematic Strategies:** Python-based signal research and backtesting.
+- **Portfolio Construction:** Risk Parity, Volatility Targeting, and dynamic allocation.
+- **Risk Management:** Drawdown analysis, exposure control, and risk-adjusted performance.
+- **Robustness:** Out-of-sample testing, parameter sensitivity, and Monte Carlo analysis.
 
-Develop systematic trading models while controlling execution bias and overfitting.
+## Repository Structure
 
-Investigate portfolio construction techniques, including Risk Parity and Volatility Targeting.
+- `src/` — Reusable quantitative research tools.
+- `notebooks/` — Experiments, backtests, and visualizations.
+- `research/` — Research reports and findings.
+- `results/` — Performance metrics and analysis.
+- `methodology/` — Validation procedures and testing standards.
+- `data/` — Data documentation and local datasets.
 
-Evaluate risk-adjusted performance, drawdowns and capital allocation methods.
+## Research Principles
 
-Test robustness across market regimes, parameter configurations and out-of-sample periods.
+- Avoid look-ahead bias and overfitting.
+- Account for transaction costs and realistic execution.
+- Prioritize robustness over in-sample performance.
+- Document assumptions, limitations, and conclusions.
 
-Maintain transparent research documentation and a clear record of methodological decisions.
+## Current Status
 
-Research Areas
+**Phase:** Backtesting and strategy validation.
 
-1. Strategy Research
+Selected research, tools, and results are published openly. Proprietary strategies and production code may remain private.
 
-Systematic trading hypotheses, signal research and exploratory backtesting.
-
-2. Portfolio Construction
-
-Capital allocation, diversification, volatility targeting and risk budgeting.
-
-3. Risk Management
-
-Drawdown analysis, exposure management, transaction costs and risk-adjusted performance.
-
-4. Statistical Validation
-
-Out-of-sample evaluation, sensitivity analysis, Monte Carlo experiments and stability testing where appropriate.
-
-Repository Structure
-
-research/ — Research reports, hypotheses and conclusions.
-
-src/ — Reusable quantitative research utilities.
-
-notebooks/ — Exploratory analysis and reproducible demonstrations.
-
-results/ — Performance metrics, figures and validation summaries.
-
-methodology/ — Backtesting standards and validation procedures.
-
-tests/ — Automated tests for public code.
-
-journal/ — Research notes and development milestones.
-
-data/README.md — Data sources, formats and access instructions.
-
-Research Standards
-
-Each published experiment should document, where applicable:
-
-Research hypothesis and motivation.
-
-Instruments, data sources and evaluation period.
-
-Trading assumptions, commissions, spreads and slippage.
-
-Benchmark and performance metrics.
-
-In-sample and out-of-sample evaluation.
-
-Parameter sensitivity and robustness checks.
-
-Limitations, potential biases and next steps.
-
-A positive backtest is not, by itself, evidence of a robust or profitable trading strategy.
-
-Publication Policy
-
-This repository is intended to showcase quantitative research, technical implementation and analytical reasoning.
-
-Reusable tools, selected research code, methodology and documented results may be published openly. Proprietary strategy implementations, sensitive parameters and production execution systems may be maintained separately in private repositories.
-
-Public results will be identified according to their evidence level, distinguishing simulated backtests from paper trading and live performance.
-
-Current Status
-
-Phase: Strategy research and backtesting validation.
-
-Research findings are provisional until supported by appropriate robustness checks and out-of-sample evidence.
-
-Disclaimer
-
-This repository is for research and educational purposes only. Historical and simulated results do not guarantee future performance and should not be interpreted as investment advice.
+*For research and educational purposes only. Historical and simulated performance does not guarantee future results.*
